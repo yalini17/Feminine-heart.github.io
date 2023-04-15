@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>HeaRT webtool</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="bmi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(function(){
+       $('#h1').hide();
+      $('#h1').fadeIn(2000);
+      $('#h2').hide();
+      $('#h2').delay(2000).fadeIn(3000);
+    });
+</script>
+</head>
+<body>
+    
+    <div id="head1">
+        <h1 id="h1" style="text-align:center">Feminine <span class="h">HEA</span>lth <span class="h">R</span>ecommendation web <span class="h">T</span>ool</h1>
+        <h2 id="h2" style="text-align:center;text-decoration:underline;color:white">The right solution for women's health care</h2>
+    </div>
+       
+  <div class="box">
+    <h1 style="color :rgb(5, 4, 4)">Enter your Details!!</h1>
+    
+    <div class="form">
+        <input type="text" placeholder="Enter your Name" id="name" required><br><br>
+        <input type="text"  placeholder="Enter your Age" id="age" name="Age"> &nbsp; &nbsp; &nbsp;<br><br>
+        <input type="number" id="weight" placeholder="Enter your weight in kg"><br><br>
+        <input type="number"  id="height" placeholder="Enter your height in cm">
+       
+    </div>
+    <br>
+   
+       <!-- <button class="button">For Your Recommandations</button>-->
+            
+            <button type="submit" onclick="calculate()" id="bmi">Check BMI</button><br>
+            <div id="result"></div><br>
+            <button type="submit" onclick="redirect()" id="details">For your recommendations</button>
+        <script src="bmi.js"></script>
+</body>
+</html>
+

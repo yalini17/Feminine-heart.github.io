@@ -1,0 +1,33 @@
+button{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(109.6deg, rgb(245, 95, 152) 11.2%, rgb(254, 148, 136) 100.2%);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    border: none;
+    font-size: 24px;
+    padding: 4opx;
+    text-decoration: none;
+    margin: 20px 20px 20px 70px;
+    cursor:pointer;
+  }
+  #heading{
+   text-decoration: underline;
+    text-align: center;
+    color:black;
+  }
+  input.value{
+    color:black;
+  }
+  body{
+    /*background-color: skyblue;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+    margin-left:55px;
+  }
+  background-image{
+    opacity:0.5;
+  }
+  
