@@ -1,0 +1,44 @@
+.box{
+    height:250px;
+    width:400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+     border-radius:10px;
+     padding:30px;
+     font-size: 20px;
+
+ }
+ 
+ body{
+    background-color: pink;
+    margin:30px;
+ }
+ 
+ button{
+    width: 100px;
+    height:35px;
+    align-items: center;
+     text-align: center;
+     margin-top: 20px;
+     margin-left:35%;
+     background-color:palevioletred;
+     border-radius:5px;
+     height:30px;
+     font-weight:bolder;
+     padding: 5px;
+     letter-spacing: 1px;
+     border: none;
+     color:white;
+ }
+ input{
+    height:30px;
+    width:300px;
+    border-radius:5px;
+    border: none;
+ }
+ .head{
+     background-color: palevioletred;
+ }
+ body{
+    font-family: 'Times New Roman', Times, serif;
+ }

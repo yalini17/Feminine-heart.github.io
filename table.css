@@ -1,0 +1,20 @@
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color:white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.blueTable td{
+    padding:10px;
+  }
+ #heading{
+    text-decoration: underline;
+    text-align:center;
+    color:darkblue;
+ }
+ .weeks{
+    text-align: center;
+    color:darkblue;
+    font-size: 20px;
+ }
